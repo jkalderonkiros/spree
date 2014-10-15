@@ -21,7 +21,7 @@ module Spree
   class AppConfiguration < Preferences::Configuration
     # Alphabetized to more easily lookup particular preferences
     preference :address_requires_state, :boolean, default: true # should state/state_name be required
-    preference :admin_interface_logo, :string, default: 'logo/spree_50.png'
+    preference :admin_interface_logo, :string, default: 'logo/buhooemio.png'
     preference :admin_products_per_page, :integer, default: 10
     preference :allow_checkout_on_gateway_error, :boolean, default: false
     preference :allow_guest_checkout, :boolean, default: true
@@ -52,7 +52,7 @@ module Spree
     preference :hide_cents, :boolean, default: false
     preference :last_check_for_spree_alerts, :string, default: nil
     preference :layout, :string, default: 'spree/layouts/spree_application'
-    preference :logo, :string, default: 'logo/spree_50.png'
+    preference :logo, :string, default: 'logo/buhooemio.png'
     preference :max_level_in_taxons_menu, :integer, default: 1 # maximum nesting level in taxons menu
     preference :orders_per_page, :integer, default: 15
     preference :properties_per_page, :integer, default: 15
